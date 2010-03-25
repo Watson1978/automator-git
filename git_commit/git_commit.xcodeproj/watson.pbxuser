@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* git_commit */;
+		breakpoints = (
+		);
+		codeSenseManager = 658A2DD0067AB96600421F51 /* Code sense */;
+		executables = (
+			658A2E03067AB99300421F51 /* Automator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					274,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					384,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 291190505;
+			PBXWorkspaceStateSaveDate = 291190505;
+		};
+		perUserProjectItems = {
+			A9087E681159C9C3003ECF2B /* PlistBookmark */ = A9087E681159C9C3003ECF2B /* PlistBookmark */;
+			A9AB9D66115B1E2E00978DEE /* PBXTextBookmark */ = A9AB9D66115B1E2E00978DEE /* PBXTextBookmark */;
+			A9AB9D82115B1FFE00978DEE /* PBXTextBookmark */ = A9AB9D82115B1FFE00978DEE /* PBXTextBookmark */;
+			A9AB9DA6115B218E00978DEE /* PBXTextBookmark */ = A9AB9DA6115B218E00978DEE /* PBXTextBookmark */;
+			A9B6B964115B38D700B32034 /* PlistBookmark */ = A9B6B964115B38D700B32034 /* PlistBookmark */;
+			A9B6B965115B38D700B32034 /* PBXTextBookmark */ = A9B6B965115B38D700B32034 /* PBXTextBookmark */;
+			A9B6B966115B38D700B32034 /* PlistBookmark */ = A9B6B966115B38D700B32034 /* PlistBookmark */;
+			A9B6B967115B38D700B32034 /* PBXTextBookmark */ = A9B6B967115B38D700B32034 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6518174F067A8D39005BD953 /* git_commit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {576, 339}}";
+			sepNavSelRange = "{20, 0}";
+			sepNavVisRange = "{0, 260}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	65181750067A8D39005BD953 /* git_commit.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 658}}";
+			sepNavSelRange = "{1311, 0}";
+			sepNavVisRange = "{249, 1101}";
+			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
+		};
+	};
+	658A2DCF067AB96600421F51 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	658A2DD0067AB96600421F51 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	658A2E03067AB99300421F51 /* Automator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-action \"git_commit.action\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 658A2E04067AB99300421F51 /* Automator.app */;
+		libgmallocEnabled = 0;
+		name = Automator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	658A2E04067AB99300421F51 /* Automator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Automator.app;
+		path = /Applications/Automator.app;
+		sourceTree = "<absolute>";
+	};
+	8D5B49AC048680CD000E48DA /* git_commit */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
+		};
+	};
+	A9087E681159C9C3003ECF2B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			AMProvides,
+		);
+		name = /Users/watson/test/git_commit/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A9AB9D66115B1E2E00978DEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6518174F067A8D39005BD953 /* git_commit.h */;
+		name = "git_commit.h: 3";
+		rLen = 0;
+		rLoc = 20;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	A9AB9D82115B1FFE00978DEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* git_commit.m */;
+		name = "git_commit.m: 10";
+		rLen = 94;
+		rLoc = 77;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 20;
+	};
+	A9AB9DA6115B218E00978DEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* git_commit.m */;
+		name = "git_commit.m: 15";
+		rLen = 0;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	A9B6B964115B38D700B32034 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = /Users/watson/Documents/git_commit/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A9B6B965115B38D700B32034 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6518174F067A8D39005BD953 /* git_commit.h */;
+		name = "git_commit.h: 3";
+		rLen = 0;
+		rLoc = 20;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	A9B6B966115B38D700B32034 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = /Users/watson/Documents/git_commit/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A9B6B967115B38D700B32034 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6518174F067A8D39005BD953 /* git_commit.h */;
+		name = "git_commit.h: 3";
+		rLen = 0;
+		rLoc = 20;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+}
