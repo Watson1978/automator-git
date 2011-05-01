@@ -29,7 +29,7 @@
 		<string>git-commit - Record changes to the repository.</string>
 	</dict>
 	<key>AMIconName</key>
-	<string>(* The name of the icon *)</string>
+	<string>/Applications/Utilities/Terminal.app/Contents/Resources/Terminal.icns</string>
 	<key>AMKeywords</key>
 	<array/>
 	<key>AMName</key>

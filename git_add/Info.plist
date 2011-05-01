@@ -65,7 +65,7 @@
 	<key>CFBundleGetInfoString</key>
 	<string>1.0, Copyright © 2010 Watson, All Rights Reserved</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>/Applications/Utilities/Terminal.app/Contents/Resources/Terminal.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.Automator.${PRODUCT_NAME:identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
