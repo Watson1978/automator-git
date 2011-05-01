@@ -53,12 +53,13 @@
 						<object class="NSTextFieldCell" key="NSCell" id="76015695">
 							<int key="NSCellFlags">-1804468672</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">origin master</string>
+							<string key="NSContents"/>
 							<object class="NSFont" key="NSSupport">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">13</double>
 								<int key="NSfFlags">1044</int>
 							</object>
+							<string key="NSPlaceholderString">origin master</string>
 							<reference key="NSControlView" ref="722756242"/>
 							<bool key="NSDrawsBackground">YES</bool>
 							<object class="NSColor" key="NSBackgroundColor">
@@ -159,14 +160,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">repository</string>
-						<reference key="source" ref="513649446"/>
-						<reference key="destination" ref="595191707"/>
-					</object>
-					<int key="connectionID">100020</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">_view</string>
 						<reference key="source" ref="513649446"/>
 						<reference key="destination" ref="595191707"/>
@@ -192,6 +185,14 @@
 						</object>
 					</object>
 					<int key="connectionID">100026</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">repository</string>
+						<reference key="source" ref="513649446"/>
+						<reference key="destination" ref="722756242"/>
+					</object>
+					<int key="connectionID">100027</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -317,7 +318,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">100026</int>
+			<int key="maxID">100027</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
