@@ -32,6 +32,7 @@
     NSData *data = [handle  readDataToEndOfFile];
     NSString *result = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
 
+    [cmd release];
     [task release];
     [pipe release];
 
