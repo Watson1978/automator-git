@@ -8,7 +8,6 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo
 {
-    // Add your code here, returning the data to be passed to the next action.
     NSEnumerator *enumerate = [input objectEnumerator];
     NSString *path = [enumerate nextObject];
 
