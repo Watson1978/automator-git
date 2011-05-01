@@ -13,7 +13,7 @@
 	NSEnumerator *enumerate = [input objectEnumerator];
 	NSString *path    = [enumerate nextObject];
 	NSString *message = [commitMessage stringValue];
-    NSString *cmd     = [NSString stringWithFormat: @"PATH=/opt/local/bin:/usr/local/bin:/usr/local/git/bin; git commit -m '%@'", message];
+    NSString *cmd     = [NSString stringWithFormat: @"PATH=/opt/local/bin:/usr/local/bin:/usr/local/git/bin:/usr/bin; git commit -m '%@'", message];
 
 	NSTask *task  = [[NSTask alloc] init];
 	NSPipe *pipe  = [[NSPipe alloc] init];

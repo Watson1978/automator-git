@@ -17,7 +17,7 @@
 	
     [task setLaunchPath: @"/bin/sh"];
 	[task setCurrentDirectoryPath: path];
-    [task setArguments: [NSArray arrayWithObjects: @"-c", @"PATH=/opt/local/bin:/usr/local/bin:/usr/local/git/bin; git add .", nil]];
+    [task setArguments: [NSArray arrayWithObjects: @"-c", @"PATH=/opt/local/bin:/usr/local/bin:/usr/local/git/bin:/usr/bin; git add .", nil]];
 	
 	[task setStandardError: pipe];
 	[task launch];
