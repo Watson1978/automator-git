@@ -11,8 +11,8 @@
 
 @interface git_pull : AMBundleAction 
 {
-	IBOutlet id repository;
-	IBOutlet id rebase;
+    IBOutlet id repository;
+    IBOutlet id rebase;
 }
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo;

@@ -11,7 +11,7 @@
 
 @interface git_push : AMBundleAction 
 {
-	IBOutlet id repository;
+    IBOutlet id repository;
 }
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo;

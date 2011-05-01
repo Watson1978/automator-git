@@ -16,34 +16,34 @@
     NSEnumerator *enumerate = [input objectEnumerator];
     NSString *path = [enumerate nextObject];
     NSString *repo = [repository stringValue];
-	NSString *opt;
-	if ([rebase state] == NSOnState) {
-		opt = [[NSString alloc] initWithString:@"--rebase"];
-	} else {
-		opt = [[NSString alloc] initWithString:@""];
-	}
+    NSString *opt;
+    if ([rebase state] == NSOnState) {
+	opt = [[NSString alloc] initWithString:@"--rebase"];
+    } else {
+	opt = [[NSString alloc] initWithString:@""];
+    }
 
     NSString *cmd  = [NSString stringWithFormat: @"PATH=/opt/local/bin:/usr/local/bin:/usr/local/git/bin:/usr/bin; git pull %@ %@", opt, repo];
-	[opt release];
-    
+    [opt release];
+
     NSTask *task  = [[NSTask alloc] init];
     NSPipe *pipe  = [[NSPipe alloc] init];
-    
+
     [task setLaunchPath: @"/bin/sh"];
     [task setCurrentDirectoryPath: path];
     [task setArguments: [NSArray arrayWithObjects: @"-c", cmd, nil]];
-    
+
     [task setStandardError: pipe];
     [task launch];
-    
+
     NSFileHandle *handle = [pipe fileHandleForReading];
     NSData *data = [handle  readDataToEndOfFile];
     NSString *result = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
-    
-	[cmd release];
+
+    [cmd release];
     [task release];
     [pipe release];
-    
+
     return input;
 }
 
